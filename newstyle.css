@@ -1,0 +1,20 @@
+.carousel-item img{
+    height: 300px;
+    opacity: 0.5;
+}
+.carousel-control-next-icon{
+    color: wheat;
+    background-color: black;
+}
+.carousel-control-prev-icon{
+    color: wheat;
+    background-color: black;
+}
+.carousel-caption h5{
+    color: black;
+    font-size: 30px;
+}
+.carousel-caption p{
+    color: black;
+    font-size: 25px;
+}

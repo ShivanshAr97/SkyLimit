@@ -1,0 +1,83 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.container video{
+    z-index: -1;
+    width: 100%;
+    opacity: 0.6;
+}
+.login{
+    margin-top: 7%;
+    margin-left: 30%;
+    position: absolute;
+    color: black;
+    top: 0%;
+    left: 0%;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 10000000;
+    width: 500px;
+    background-color: rgba(122, 122, 243, 0.8);
+    padding: 50px 0;
+    color: black;
+    box-shadow: 0 0 20px 2px rgba(29, 29, 41, 0.5);
+}
+.login h1{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.input-box{
+    width: 80%;
+    margin: -2px;
+    border-bottom: 1px solid black;
+    margin:30px;
+}
+.input-box input{
+    outline: none;
+    width: 80%;
+    border: none;
+    background: transparent;
+    color: black;
+}
+.input-box input::placeholder{
+    color: black;
+}
+.btn7{
+    margin: 60px auto;
+    margin-bottom: -10px;
+    width: 20%;
+    outline: none;
+    display: block;
+    padding: 10px 0;
+    border: 1px solid navy;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+}
+.btn7:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+}
+.eye{
+    position: absolute;
+    margin-left: -1%;
+}
+#hide1{
+    display: none;
+}
+.remember{
+    padding-left: 70px;
+}
+a{
+    margin-left: 50px;
+}

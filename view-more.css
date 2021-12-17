@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.experiences{
+    width: 100%;
+    padding: 10px;
+    transition: transform 0.5s;
+}
+.view-more h6{
+    float: right;
+    margin-top: -20px;
+    padding-right: 20px;
+}
+.experiences-content{
+    padding: 10px;
+    width: 100%;
+    transition: transform 0.5s;
+}
+.experience-heading h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+.experiences-content{
+    padding: 10px;
+    margin: 10px;
+}
+.experiences-content img{
+    margin-top: 10px;
+}
+.experiences-content:hover{
+    transform: translateY(-5px);
+}
+.experiences2{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+.experiences2-content{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.5s;
+}
+.experience2-heading h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+.experiences2-content{
+    padding: 10px;
+    margin: 10px;
+}
+.experiences2-content img{
+    margin-top: 10px;
+}
+.experiences2-content:hover{
+    transform: translateY(-5px);
+}
